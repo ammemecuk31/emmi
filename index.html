@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>Aslan Emmime Hediye</title>
+<title>Şaka Sayfası</title>
 <style>
 body {
     display:flex;
@@ -22,21 +22,18 @@ button {
 </head>
 <body>
 
-<h1>Hediyen</h1>
-<button onclick="sakaYap()">Hediyeyi almak için tıkla</button>
+<h1>Arkadaşına Şaka!</h1>
+<button onclick="sakaYap()">Tıkla Bakalım!</button>
 
 <p id="sonuc" style="margin-top:20px; font-size:20px;"></p>
 
 <script>
 function sakaYap() {
     const mesajlar = [
-        "emmi yarrrramı yee"
-        "emmi yarrrramı yee"
-    "emmi yarrrramı yee"
-    "emmi yarrrramı yee"
-    "emmi yarrrramı yee"
-    "emmi yarrrramı yee"
-    
+        "Emmi Yarrramı yee",
+        "Sikek la emmiyi",
+        "Ammına koyakkk 😜",
+        "emmmmiiii"
     ];
     const secilen = mesajlar[Math.floor(Math.random()*mesajlar.length)];
     document.getElementById("sonuc").textContent = secilen;
